@@ -25,7 +25,7 @@
                           </li>
                           <li><a href="downloads.php"><i class="fa fa-down"></i> Download</a>
                           </li>
-                          <li><a href="plugins.php"><i class="fa fa-down"></i> Plugins</a>
+                          <li><a href="forums"><i class="fa fa-down"></i> Forums</a>
                           </li>
                           <li><a href="https://github.com/PocketBukkit/PocketBukkit/tree/master/PocketBukkit"><i class="fa fa-down"></i> GitHub</a>
                           </li>
