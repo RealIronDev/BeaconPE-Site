@@ -17,5 +17,6 @@ if [ -f ./master.zip ]; then
   rm -rf includes/
   rm -rf js/
   mv PocketBukkit-Site-master/* /var/www/html/
+  chmod 0700 updateSite.sh
   rm -rf PocketBukkit-Site-master
 fi
