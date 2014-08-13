@@ -2,6 +2,8 @@
 cd /var/www/html/
 wget https://github.com/PocketBukkit/PocketBukkit-Site/archive/master.zip
 if [ -f ./master.zip ]; then
+  unzip master.zip
+  rm -rf master.zip
   rm -rf .htaccess
   rm -rf updateSite.sh
   rm -rf beta.php
@@ -14,8 +16,6 @@ if [ -f ./master.zip ]; then
   rm -rf css/
   rm -rf includes/
   rm -rf js/
-  unzip master.zip
-  rm -rf master.zip
   mv PocketBukkit-Site-master/* /var/www/html/
   rm -rf PocketBukkit-Site-master
 fi
