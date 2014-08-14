@@ -5,6 +5,9 @@ if [ -f ./master.zip ]; then
   unzip master.zip
   rm -rf master.zip
   rm -rf .htaccess
+  if [ -f ./README.md ]; then
+    rm -rf README.md
+  fi
   rm -rf updateSite.sh
   rm -rf beta.php
   rm -rf chat.php
@@ -19,4 +22,5 @@ if [ -f ./master.zip ]; then
   mv PocketBukkit-Site-master/* /var/www/html/
   chmod 0700 updateSite.sh
   rm -rf PocketBukkit-Site-master
+  rm -rf README.md
 fi
