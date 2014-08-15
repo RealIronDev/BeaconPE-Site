@@ -33,6 +33,10 @@
                   ?>
                       <center><p class="alert alert-danger">There is not a build available in that channel at this time!</p></center>
                   <?php
+                    }elseif(isset($_GET['warning']) == true && empty($_GET['warning']) == true) {
+                  ?>
+                      <center><p class="alert alert-warning">The build you requested is not yet available to the public!</p></center>
+                  <?php
                     }
                   ?>
                   <center>
