@@ -28,6 +28,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-40 col-md-40 intro-marketing-box">
+                  <?php
+                    if(isset($_GET['error']) == true && empty($_GET['error']) == true) {
+                  ?>
+                      <center><p class="alert alert-danger">There is not a build available in that channel at this time!</p></center>
+                  <?php
+                    }
+                  ?>
                   <center>
                     <u><h2>Download PocketBukkit</h2></u>
                     <table class="versionsTable" style="text-indent: 5em;">
@@ -108,6 +115,10 @@
 
                       </tbody>
                     </table>
+                    <u><h2>Quick Download</h2></u></br>
+                    <a href="downloads.php?error" class="btn btn-large btn-success">Stable</a> 
+                    <a href="downloads.php?error" class="btn btn-large btn-warning">Beta</a>
+                    <a href="http://pocketbukkit.net/download/0005/PocketBukkit.jar" class="btn btn-large btn-danger">Development</a>
                   </center></br></br>
                 </div>
               <div class="clearfix"></div>
