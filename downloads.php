@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="PocketBukkit is a free, open source server software for Minecraft: Pocket Edition written in Java.  It has a built-in API to allow you to customize your server in any way you can imagine.">
-    <title>PocketBukkit | Home</title>
+    <title>PocketBukkit | Downloads</title>
     <link href="css/channels.css" rel="stylesheet">
 <?php include_once( 'includes/meta.php'); ?>
 </head>
