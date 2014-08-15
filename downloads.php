@@ -61,7 +61,7 @@
                           <td><center>v0.9.5 alpha</center></td>
                           <td><center><a href="development.php" style="color: #CC0000">Development</a></center></td>
                           <td class="downloadLink">
-                            <a class="tooltipd" title="Download PocketBukket (#0002)" href="download.php?next">
+                            <a class="tooltipd" title="Download PocketBukket (#0002)" href="downloads.php?next">
                               <center>
                                 <img src="img/download.png" alt="Download" width="30" height="30">
                               </center>
