@@ -29,14 +29,11 @@
             <div class="row">
                 <div class="col-lg-40 col-md-40 intro-marketing-box">
                   <?php
-                    if(isset($_GET['message']) == true && empty($_GET['message']) == "next") {
+                    if(isset($_GET['next']) == true && empty($_GET['next']) == true) {
                   ?>
                       <center><p class="alert alert-success">You are trying to download a build that is not ready yet!</p></center>
                   <?php
-                    }
-                  ?>
-                  <?php
-                    if(isset($_GET['error']) == true && empty($_GET['error']) == true) {
+                    }elseif(isset($_GET['error']) == true && empty($_GET['error']) == true) {
                   ?>
                       <center><p class="alert alert-danger">There is not a build available in that channel at this time!</p></center>
                   <?php
@@ -64,7 +61,7 @@
                           <td><center>v0.9.5 alpha</center></td>
                           <td><center><a href="development.php" style="color: #CC0000">Development</a></center></td>
                           <td class="downloadLink">
-                            <a class="tooltipd" title="Download PocketBukket (#0002)" href="download.php?message=next">
+                            <a class="tooltipd" title="Download PocketBukket (#0002)" href="download.php?next">
                               <center>
                                 <img src="img/download.png" alt="Download" width="30" height="30">
                               </center>
