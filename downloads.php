@@ -31,7 +31,7 @@
                   <?php
                     if(isset($_GET['next']) == true && empty($_GET['next']) == true) {
                   ?>
-                      <center><p class="alert alert-success">You are trying to download a build that is not ready yet!</p></center>
+                      <center><p class="alert alert-info">You are trying to download a build that is not ready yet!</p></center>
                   <?php
                     }elseif(isset($_GET['error']) == true && empty($_GET['error']) == true) {
                   ?>
