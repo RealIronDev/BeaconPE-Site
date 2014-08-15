@@ -12,6 +12,7 @@ if [ -f ./master.zip ]; then
   rm -rf beta.php
   rm -rf chat.php
   rm -rf development.php
+  rm -rf 404.php
   rm -rf downloads.php
   rm -rf index.php
   rm -rf plugins.php
