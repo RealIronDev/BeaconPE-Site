@@ -29,6 +29,13 @@
             <div class="row">
                 <div class="col-lg-40 col-md-40 intro-marketing-box">
                   <?php
+                    if(isset($_GET['message']) == true && empty($_GET['message']) == "next") {
+                  ?>
+                      <center><p class="alert alert-success">You are trying to download a build that is not ready yet!</p></center>
+                  <?php
+                    }
+                  ?>
+                  <?php
                     if(isset($_GET['error']) == true && empty($_GET['error']) == true) {
                   ?>
                       <center><p class="alert alert-danger">There is not a build available in that channel at this time!</p></center>
@@ -51,59 +58,20 @@
                         </tr>
                       </thead>
                       <tbody>
-
-                        <tr class="chan-dev">
-                          <th><center>#0005</center></th>
-                          <td><center>v0.9.5 alpha</center></td>
-                          <td><center><a href="development.php" style="color: #CC0000">Development</a></center></td>
-                          <td class="downloadLink">
-                            <a class="tooltipd" title="Download PocketBukket (#0005)" href="download/0005/PocketBukkit.jar">
-                              <center>
-                                <img src="img/download.png" alt="Download" width="30" height="30">
-                              </center>
-                            </a>
-                          </td>
-                        </tr>
-
-                        <tr class="chan-dev">
-                          <th><center>#0004</center></th>
-                          <td><center>v0.9.5 alpha</center></td>
-                          <td><center><a href="development.php" style="color: #CC0000">Development</a></center></td>
-                          <td class="downloadLink">
-                            <a class="tooltipd" title="Download PocketBukket (#0004)" href="download/0004/PocketBukkit.jar">
-                              <center>
-                                <img src="img/download.png" alt="Download" width="30" height="30">
-                              </center>
-                            </a>
-                          </td>
-                        </tr>
-
-                        <tr class="chan-dev">
-                          <th><center>#0003</center></th>
-                          <td><center>v0.9.5 alpha</center></td>
-                          <td><center><a href="development.php" style="color: #CC0000">Development</a></center></td>
-                          <td class="downloadLink">
-                            <a class="tooltipd" title="Download PocketBukket (#0003)" href="download/0003/PocketBukkit.jar">
-                              <center>
-                                <img src="img/download.png" alt="Download" width="30" height="30">
-                              </center>
-                            </a>
-                          </td>
-                        </tr>
-
-                        <tr class="chan-dev">
+                        
+                        <tr class="chan-next">
                           <th><center>#0002</center></th>
                           <td><center>v0.9.5 alpha</center></td>
                           <td><center><a href="development.php" style="color: #CC0000">Development</a></center></td>
                           <td class="downloadLink">
-                            <a class="tooltipd" title="Download PocketBukket (#0002)" href="download/0002/PocketBukkit.jar">
+                            <a class="tooltipd" title="Download PocketBukket (#0002)" href="download.php?message=next">
                               <center>
                                 <img src="img/download.png" alt="Download" width="30" height="30">
                               </center>
                             </a>
                           </td>
                         </tr>
-
+                        
                         <tr class="chan-dev">
                           <th><center>#0001</center></th>
                           <td><center>v0.9.5 alpha</center></td>
@@ -122,7 +90,7 @@
                     <u><h2>Quick Download</h2></u></br>
                     <a href="downloads.php?error" class="btn btn-large btn-success">Stable</a> 
                     <a href="downloads.php?error" class="btn btn-large btn-warning">Beta</a>
-                    <a href="http://pocketbukkit.net/download/0005/PocketBukkit.jar" class="btn btn-large btn-danger">Development</a>
+                    <a href="http://pocketbukkit.net/download/0001/PocketBukkit.jar" class="btn btn-large btn-danger">Development</a>
                   </center></br></br>
                 </div>
               <div class="clearfix"></div>
