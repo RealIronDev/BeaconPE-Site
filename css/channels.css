@@ -1,0 +1,24 @@
+.versionsTable {
+  width: 100%; }
+  .versionsTable td, .versionsTable th {
+    height: 19px;
+    line-height: 19px;
+    text-align: center; }
+  .versionsTable tbody tr a {
+    display: block;
+    width: 100%;
+    height: 100%; }
+  .versionsTable tbody tr.chan-rb {
+    background-color: #437a00;
+    background-color: rgba(67, 122, 0, 0.3); }
+  .versionsTable tbody tr.chan-beta {
+    background-color: #f1b700;
+    background-color: rgba(241, 183, 0, 0.3); }
+  .versionsTable tbody tr.chan-next {
+    background-color: #ff6501;
+    background-color: rgba(255, 101, 1, 0.3); }
+  .versionsTable tbody tr:hover {
+    background-color: #c8c8c8;
+    background-color: rgba(0, 0, 0, 0.3); }
+  .versionsTable tbody tr td.downloadLink img {
+    vertical-align: text-top; }
