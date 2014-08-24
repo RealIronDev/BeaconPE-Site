@@ -40,7 +40,7 @@
 					<hr>
 					<h1>PocketBukkit Requirements</h1>
 					<p>
-						In order to run the PocketBukkit software, you will need the <a href="http://java.com/download">Java Software</a> by <a href="http://oracle.com">Oracle</a>.  We reccomend you use the latest version of Java to minimize problems that may occur while using PocketBukkit.</br>
+						In order to run the PocketBukkit software, you will need the <a href="http://java.com/download">Java Software</a> by <a href="http://oracle.com">Oracle</a>.  We recommend you use the latest version of Java to minimize problems that may occur while using PocketBukkit.</br>
 					</p>
 				</center>
 			</div>
