@@ -1,9 +1,9 @@
 #!/bin/bash
 cd /var/www/html/
-wget https://github.com/PocketBukkit/PocketBukkit-Site/archive/Remodel.zip
-if [ -f ./Remodel.zip ]; then
-  unzip Remodel.zip
-  rm -rf Remodel.zip
+wget https://github.com/PocketBukkit/PocketBukkit-Site/archive/master.zip
+if [ -f ./master.zip ]; then
+  unzip master.zip
+  rm -rf master.zip
   rm -rf .htaccess
   if [ -f ./README.md ]; then
     rm -rf README.md
