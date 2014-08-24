@@ -1,47 +1,92 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="PocketBukkit is a free, open source server software for Minecraft: Pocket Edition written in Java.  It has a built-in API to allow you to customize your server in any way you can imagine.">
-    <title>PocketBukkit | Home</title>
-<?php include_once( 'includes/meta.php'); ?>
-</head>
-
-<body><font color="white">
-<?php include_once( 'includes/nav.php'); ?>
-    <!-- Masthead -->
-    <div class="masthead">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1><img src="img/logo.png" height="80" width="80"></img> PocketBukkit</h1>
-                    <h3></h3>
-                    <font size="4"><p>Your Server.  Your Way.</p></font>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Intro home page content -->
-    <div class="intro-marketing">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-40 col-md-40 intro-marketing-box">
-                    <u><h2>What is PocketBukkit</h2></u></br>
-                    <p>PocketBukkit is a free, open source server software for Minecraft: Pocket Edition written in Java.  It has a built-in API to allow you to customize your server in any way you can imagine.</p>
-                    </br></br>
-                    <u><h2>What are the requirements</h2></u></br>
-                    <p>In order to run a PocketBukkit server you will need to have <u><a href="https://java.com/download">Java</a></u> installed on your machine.</br>
-                      If you would like your server to be open to the public you will need to be portforwarded.</br>
-                      If for any reason, your machine can not run .JAR files, you will not be able to use the software.
-                    </p>
-                </div>
-              <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-    <!-- Page content -->
-<?php include_once( 'includes/js.php'); ?>
-</font>
-</body>
-</html>
+<?php
+	include_once 'includes/header.php';
+	
+	//Show Fixed Navbar
+	echo '<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            			<span class="sr-only">Toggle navigation</span>
+	            		<span class="icon-bar"></span>
+	            		<span class="icon-bar"></span>
+	            		<span class="icon-bar"></span>
+	            	</button>
+	            	<a class="navbar-brand" href="index.php">PocketBukkit</a>
+	            </div>
+	            <div class="navbar-collapse collapse">
+	            	<ul class="nav navbar-nav">
+	            		<li><a href="index.php">Home </a></li>
+	            		<li><a data-toggle="modal" data-target="#downloads">Downloads </a></li>
+	            		<li><a href="forums">Forums </a></li>
+						<li><a data-toggle="modal" data-target="#webchat">WebChat </a></li>
+	            		<li class="dropdown">
+	            			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <span class="caret"></span></a>
+	            			<ul class="dropdown-menu" role="menu">
+	            				<li><a href="https://twitter.com/PocketBukkit">Twitter </a></li>
+	            				<li><a href="https://github.com/PocketBukkit">GitHub</a></li>
+	            			</ul>
+	            		</li>
+	            	</ul>
+	            	<ul class="nav navbar-nav navbar-right">
+	            		<li><a href="#">Sign In</a></li>
+	            	</ul>
+	            </div><!--/.nav-collapse -->
+			</div>
+	     </div>';
+	
+	//Main Site Text
+	echo '<div class="container">
+			<div class="jumbotron">
+				<center>
+					<h1>PocketBukkit - MinecraftPE Server Software</h1>
+					<p>PocketBukkit is a free, open-source server software for Minecraft: Pocket Edition written in Java.  It has a built-in Plugin API for developers to allow you to customize your server in any way you can imagine.</p>
+					</br>
+					<hr>
+					<h1>PocketBukkit Requirements</h1>
+					<p>
+						In order to run the PocketBukkit software, you will need the <a href="http://java.com/download">Java Software</a> by <a href="http://oracle.com">Oracle</a>.  We reccomend you use the latest version of Java to minimize problems that may occur while using PocketBukkit.</br>
+					</p>
+				</center>
+			</div>
+		  </div>';
+	
+	//Show WebChat
+	echo '<div class="modal fade" id="downloads" tabindex="-1" role="dialog" aria-labelledby="downloadsLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						<center><h4 class="modal-title" id="downloadsLabel">PocketBukkit Downloads</h4></center>
+					</div>
+					<div class="modal-body">
+						<p>
+							No downloadable versions found.
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		  </div>';
+	
+	//Show Downloads
+	echo '<div class="modal fade" id="webchat" tabindex="-1" role="dialog" aria-labelledby="webchatLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						<center><h4 class="modal-title" id="webchatLabel">PocketBukkit WebChat</h4></center>
+					</div>
+					<div class="modal-body">
+						<center><iframe src="http://webchat.freenode.net?channels=%23PocketBukkit&uio=d4" width="747" height="500"></iframe></center>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		  </div>';
+	
+	include_once 'includes/footer.php';
+?>
