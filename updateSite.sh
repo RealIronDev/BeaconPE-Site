@@ -1,4 +1,3 @@
-#!/bin/bash
 cd /var/www/html/
 wget https://github.com/PocketBukkit/PocketBukkit-Site/archive/master.zip
 if [ -f ./master.zip ]; then

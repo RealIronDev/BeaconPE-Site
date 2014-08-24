@@ -11,7 +11,7 @@
 	            		<span class="icon-bar"></span>
 	            		<span class="icon-bar"></span>
 	            	</button>
-	            	<a class="navbar-brand" href="index.php">PocketBukkit</a>
+	            	<a class="navbar-brand">PocketBukkit</a>
 	            </div>
 	            <div class="navbar-collapse collapse">
 	            	<ul class="nav navbar-nav">
@@ -85,8 +85,8 @@
 						</center>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-success" href="forums">Yes</button>
 						<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+						<a type="button" class="btn btn-success" href="forums">Yes</a>
 					</div>
 				</div>
 			</div>
