@@ -15,9 +15,8 @@
 	            </div>
 	            <div class="navbar-collapse collapse">
 	            	<ul class="nav navbar-nav">
-	            		<li><a href="index.php">Home </a></li>
 	            		<li><a data-toggle="modal" data-target="#downloads">Downloads </a></li>
-	            		<li><a href="forums">Forums </a></li>
+	            		<li><a data-toggle="modal" data-target="#forums">Forums </a></li>
 						<li><a data-toggle="modal" data-target="#webchat">WebChat </a></li>
 	            		<li class="dropdown">
 	            			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <span class="caret"></span></a>
@@ -50,7 +49,7 @@
 			</div>
 		  </div>';
 	
-	//Show WebChat
+	//Show Downloads
 	echo '<div class="modal fade" id="downloads" tabindex="-1" role="dialog" aria-labelledby="downloadsLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
@@ -70,7 +69,30 @@
 			</div>
 		  </div>';
 	
-	//Show Downloads
+	//Show Forums Link
+	echo '<div class="modal fade" id="forums" tabindex="-1" role="dialog" aria-labelledby="forumsLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						<center><h4 class="modal-title" id="forumsLabel">PocketBukkit Forums</h4></center>
+					</div>
+					<div class="modal-body">
+						<center>
+							<p>
+								Go to the PocketBukkit Forums?
+							</p>
+						</center>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-success" href="forums">Yes</button>
+						<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+					</div>
+				</div>
+			</div>
+		  </div>';
+	
+	//Show WebChat
 	echo '<div class="modal fade" id="webchat" tabindex="-1" role="dialog" aria-labelledby="webchatLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
@@ -79,7 +101,7 @@
 						<center><h4 class="modal-title" id="webchatLabel">PocketBukkit WebChat</h4></center>
 					</div>
 					<div class="modal-body">
-						<center><iframe src="http://webchat.freenode.net?channels=%23PocketBukkit&uio=d4" width="747" height="500"></iframe></center>
+						<center><iframe src="http://webchat.freenode.net?channels=%23PocketBukkit&uio=d4" width="550" height="500"></iframe></center>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
