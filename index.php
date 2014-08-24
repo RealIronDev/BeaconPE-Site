@@ -55,9 +55,11 @@
 						<center><h4 class="modal-title" id="downloadsLabel">PocketBukkit Downloads</h4></center>
 					</div>
 					<div class="modal-body">
-						<p>
-							No downloadable versions found.
-						</p>
+						<center>
+							<p>
+								No downloadable versions found.
+							</p>
+						</center>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
