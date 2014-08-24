@@ -50,7 +50,7 @@
 			</div>
 		  </div>';
 	
-	//Show Downloads
+	//Show WebChat
 	echo '<div class="modal fade" id="downloads" tabindex="-1" role="dialog" aria-labelledby="downloadsLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
