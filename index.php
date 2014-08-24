@@ -26,9 +26,6 @@
 	            			</ul>
 	            		</li>
 	            	</ul>
-	            	<hidden><ul class="nav navbar-nav navbar-right">
-	            		<li><a href="#">Sign In</a></li>
-	            	</ul></hidden>
 	            </div><!--/.nav-collapse -->
 			</div>
 	     </div>';
