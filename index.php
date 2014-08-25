@@ -36,12 +36,11 @@
 				<center>
 					</br>
 					<noscript>
-						<div class="alert alert-warning">
-							This site uses JavaScript which is not enabled on your browser!
+						<div class="alert alert-danger">
+							This site uses JavaScript to run which is not enabled on your browser!
 						</div>
-						You must enable JavaScript in order for this website to function!
+						</br>
 					</noscript>
-					</br>
 					<h1>PocketBukkit - MinecraftPE Server Software</h1>
 					<p>PocketBukkit is a free, open-source server software for Minecraft: Pocket Edition written in Java.  It has a built-in Plugin API for developers to allow you to customize your server in any way you can imagine.</p>
 					</br>
