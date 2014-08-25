@@ -21,8 +21,8 @@
 	            		<li class="dropdown">
 	            			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <span class="caret"></span></a>
 	            			<ul class="dropdown-menu" role="menu">
-	            				<li><a href="https://twitter.com/PocketBukkit">Twitter </a></li>
-	            				<li><a href="https://github.com/PocketBukkit">GitHub</a></li>
+	            				<li><a data-toggle="modal" data-target="#twitter">Twitter </a></li>
+	            				<li><a data-toggle="modal" data-target="#github">GitHub</a></li>
 	            			</ul>
 	            		</li>
 	            	</ul>
@@ -104,6 +104,52 @@
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		  </div>';
+	
+	//Show Twitter Link
+	echo '<div class="modal fade" id="twitter" tabindex="-1" role="dialog" aria-labelledby="twitterLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						<center><h4 class="modal-title" id="twitterLabel">PocketBukkit Twitter</h4></center>
+					</div>
+					<div class="modal-body">
+						<center>
+							<p>
+								Go to the PocketBukkit Twitter page?
+							</p>
+						</center>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+						<a type="button" class="btn btn-success" href="https://twitter.com/PocketBukkit">Yes</a>
+					</div>
+				</div>
+			</div>
+		  </div>';
+	
+	//Show GitHub Link
+	echo '<div class="modal fade" id="github" tabindex="-1" role="dialog" aria-labelledby="githubLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						<center><h4 class="modal-title" id="githubLabel">PocketBukkit GitHub</h4></center>
+					</div>
+					<div class="modal-body">
+						<center>
+							<p>
+								Go to the PocketBukkit GitHub page?
+							</p>
+						</center>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+						<a type="button" class="btn btn-success" href="https://github.com/PocketBukkit">Yes</a>
 					</div>
 				</div>
 			</div>
