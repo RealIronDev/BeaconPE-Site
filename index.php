@@ -34,6 +34,13 @@
 	echo '<div class="container">
 			<div class="jumbotron">
 				<center>
+					</br>
+					<noscript>
+						<p class="alert alert-warning">
+							This site uses JavaScript which is not enabled on your browser!
+						</p>
+					</noscript>
+					</br>
 					<h1>PocketBukkit - MinecraftPE Server Software</h1>
 					<p>PocketBukkit is a free, open-source server software for Minecraft: Pocket Edition written in Java.  It has a built-in Plugin API for developers to allow you to customize your server in any way you can imagine.</p>
 					</br>
@@ -84,8 +91,10 @@
 						</center>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
-						<a type="button" class="btn btn-success" href="forums">Yes</a>
+						<center>
+							<a type="button" class="btn btn-success" href="forums">Yes</a>
+							<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+						</center>
 					</div>
 				</div>
 			</div>
@@ -125,8 +134,10 @@
 						</center>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
-						<a type="button" class="btn btn-success" href="https://twitter.com/PocketBukkit">Yes</a>
+						<center>
+							<a type="button" class="btn btn-success" href="https://twitter.com/PocketBukkit">Yes</a>
+							<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+						</center>
 					</div>
 				</div>
 			</div>
@@ -148,8 +159,10 @@
 						</center>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
-						<a type="button" class="btn btn-success" href="https://github.com/PocketBukkit">Yes</a>
+						<center>
+							<a type="button" class="btn btn-success" href="https://github.com/PocketBukkit">Yes</a>
+							<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+						</center>
 					</div>
 				</div>
 			</div>
@@ -171,8 +184,10 @@
 						</center>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
-						<a type="button" class="btn btn-success" href="http://java.com/download">Yes</a>
+						<center>
+							<a type="button" class="btn btn-success" href="http://java.com/download">Yes</a>
+							<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+						</center>
 					</div>
 				</div>
 			</div>
@@ -194,8 +209,10 @@
 						</center>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
-						<a type="button" class="btn btn-success" href="http://oracle.com/">Yes</a>
+						<center>
+							<a type="button" class="btn btn-success" href="http://oracle.com/">Yes</a>
+							<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+						</center>
 					</div>
 				</div>
 			</div>
