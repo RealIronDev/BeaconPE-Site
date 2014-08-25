@@ -36,9 +36,10 @@
 				<center>
 					</br>
 					<noscript>
-						<p class="alert alert-warning">
+						<div class="alert alert-warning">
 							This site uses JavaScript which is not enabled on your browser!
-						</p>
+						</div>
+						You must enable JavaScript in order for this website to function!
 					</noscript>
 					</br>
 					<h1>PocketBukkit - MinecraftPE Server Software</h1>
