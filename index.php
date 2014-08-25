@@ -40,7 +40,7 @@
 					<hr>
 					<h1>PocketBukkit Requirements</h1>
 					<p>
-						In order to run the PocketBukkit software, you will need the <a href="http://java.com/download">Java Software</a> by <a href="http://oracle.com">Oracle</a>.  We recommend you use the latest version of Java to minimize problems that may occur while using PocketBukkit.</br>
+						In order to run the PocketBukkit software, you will need the <a data-toggle="modal" data-target="#java">Java Software</a> by <a data-toggle="modal" data-target="#oracle">Oracle</a>.  We recommend you use the latest version of Java to minimize problems that may occur while using PocketBukkit.</br>
 					</p>
 				</center>
 			</div>
@@ -150,6 +150,52 @@
 					<div class="modal-footer">
 						<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
 						<a type="button" class="btn btn-success" href="https://github.com/PocketBukkit">Yes</a>
+					</div>
+				</div>
+			</div>
+		  </div>';
+	
+	//Show Java Link
+	echo '<div class="modal fade" id="java" tabindex="-1" role="dialog" aria-labelledby="javaLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						<center><h4 class="modal-title" id="javaLabel">Java Software</h4></center>
+					</div>
+					<div class="modal-body">
+						<center>
+							<p>
+								Go to the Java Software download page?
+							</p>
+						</center>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+						<a type="button" class="btn btn-success" href="http://java.com/download">Yes</a>
+					</div>
+				</div>
+			</div>
+		  </div>';
+	
+	//Show Oracle Link
+	echo '<div class="modal fade" id="oracle" tabindex="-1" role="dialog" aria-labelledby="oracleLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						<center><h4 class="modal-title" id="oracleLabel">PocketBukkit GitHub</h4></center>
+					</div>
+					<div class="modal-body">
+						<center>
+							<p>
+								Go to the Oracle website?
+							</p>
+						</center>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+						<a type="button" class="btn btn-success" href="http://oracle.com/">Yes</a>
 					</div>
 				</div>
 			</div>
