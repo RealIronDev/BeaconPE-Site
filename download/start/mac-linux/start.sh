@@ -70,10 +70,10 @@ else
         rm -r -f src/
       fi
       echo "Done!"
-      echo "[2/3] Downloading latest PocketBukkit JAR..."
+      echo "[2/3] Downloading latest BlockServer JAR..."
       download "http://pocketbukkit.net/download/software/latest"
       echo "Done!"
-      echo "[3/3] Starting PocketBukkit..."
+      echo "[3/3] Starting BlockServer..."
       java -jar BlockServer.jar
     else
       if [ "$PB" == "runsrc" ]; then
