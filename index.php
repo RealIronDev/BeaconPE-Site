@@ -32,7 +32,6 @@
 						<div class="alert alert-danger">
 							This site uses JavaScript to run which is not enabled on your browser!
 						</div>
-						</br>
 					</noscript>
 					<h1>BeaconPE - MinecraftPE Server Software</h1>
 					<p>BeaconPE is a free, open-source server software for Minecraft: Pocket Edition written in Java.  It has a built-in Plugin API for developers to allow you to customize your server in any way you can imagine.</p>
