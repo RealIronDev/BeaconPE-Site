@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BeaconPE - Minecraft: PE Server Software</title>
+    <link rel="icon" type="image/x-icon" href="includes/img/favicon.ico" />
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
