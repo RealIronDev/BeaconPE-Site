@@ -56,11 +56,15 @@
 					<div class="modal-body">
 						<center>
 							<p>
-								<a class="btn btn-danger" href="download/0001/BlockServer.jar">Build #0001</a>
+								<a class="btn btn-danger" href="download/software/0001/BlockServer.jar">Build #0001</a>
 							</p>
 						</center>
 					</div>
 					<div class="modal-footer">
+						<center>
+							<button type="button" class="btn btn-warning" href="download/start/windows/start.bat">Windows Start File</button>
+							<button type="button" class="btn btn-success" href="download/start/mac-linux/start.sh">Mac/Linux Start File</button>
+						</center>
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				</div>
