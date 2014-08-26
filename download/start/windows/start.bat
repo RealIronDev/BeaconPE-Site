@@ -1,7 +1,7 @@
 @echo off
 set Stay_Updated=no
 
-Title PocketBukkit Console
+Title BlockServer Console
 Cls
 IF %Stay_Updated% == yes (
   set PB=download
@@ -10,13 +10,13 @@ IF %Stay_Updated% == yes (
 )
 
 IF %PB% == determine (
-  IF EXIST PocketBukkit.jar (
+  IF EXIST BlockServer.jar (
     set PB=jar
   ) ELSE (
-    IF EXIST src/net/pocketbukkit/PocketBukkit.class (
+    IF EXIST src/java/net/blockserver/BlockServer.class (
       set PB=runsrc
     ) ELSE (
-      IF EXIST src/net/pocketbukkit/PocketBukkit.java (
+      IF EXIST src/java/net/blockserver/BlockServer.java (
         set PB=compile
       ) ELSE (
         set PB=download
@@ -26,59 +26,59 @@ IF %PB% == determine (
 )
 
 IF %PB% == jar (
-  java -jar PocketBukkit.jar
+  java -jar BlockServer.jar
 ) ELSE (
   IF %PB% == compile (
-    ECHO [WARNING] [PocketBukkit] PocketBukkit needs to be compiled!
+    ECHO [WARNING] BlockServer needs to be compiled!
     ECHO --------------------------------------------------------------
-    ECHO [1/2] Compiling PocketBukkit...
-    javac src/net/pocketbukkit/*.java
-    javac src/net/pocketbukkit/*/*.java
-    javac src/net/pocketbukkit/*/*/*.java
+    ECHO [1/2] Compiling BlockServer...
+    javac src/java/net/blockserver/*.java
+    javac src/java/net/blockserver/*/*.java
+    javac src/java/net/blockserver/*/*/*.java
     ECHO Done!
     ECHO --------------------------------------------------------------
-    ECHO [2/2] Starting PocketBukkit...
+    ECHO [2/2] Starting BlockServer...
     ECHO --------------------------------------------------------------
-    java src/net/pocketbukkit/PocketBukkit.class
+    java src/java/net/blockserver/BlockServer.class
   ) ELSE (
     IF %PB% == download (
-      ECHO [INFO] [PocketBukkit] PocketBukkit downloader for Windows
+      ECHO [INFO] BlockServer downloader for Windows
       ECHO --------------------------------------------------------------
       ECHO [1/3] Cleaning directory...
       IF EXIST start.sh (
         ECHO Removing start.sh...
         del start.sh
       )
-      IF EXIST PocketBukkit.jar (
-        ECHO Removing PocketBukkit.jar
-        del PocketBukkit.jar
+      IF EXIST BlockServer.jar (
+        ECHO Removing BlockServer.jar
+        del BlockServer.jar
       )
-      IF EXIST src/net/pocketbukkit/PocketBukkit.java (
+      IF EXIST src/java/net/blockserver/BlockServer.java (
         ECHO Removing src directory...
         rmdir src/
       )
-      IF EXIST src/net/pocketbukkit/PocketBukkit.class (
+      IF EXIST src/java/net/blockserver/BlockServer.class (
         ECHO Removing src directory...
         rmdir src/
       )
       ECHO Done!
       ECHO --------------------------------------------------------------
-      ECHO [2/3] Downloading latest PocketBukkit JAR...
+      ECHO [2/3] Downloading latest BlockServer JAR...
       ECHO Done!
       ECHO --------------------------------------------------------------
-      ECHO [3/3] Starting PocketBukkit...
+      ECHO [3/3] Starting BlockServer...
       ECHO --------------------------------------------------------------
-      IF EXIST PocketBukkit.jar (
-        java -jar PocketBukkit.jar
+      IF EXIST BlockServer.jar (
+        java -jar BlockServer.jar
       ) ELSE (
-        ECHO [FATAL] [PocketBukkit] Unable to locate PocketBukkit.jar!
+        ECHO [FATAL] Unable to locate BlockServer.jar!
         PAUSE
       )
     ) ELSE (
       IF %PB% == runsrc (
-        java src/net/pocketbukkit/PocketBukkit.class
+        java src/java/net/blockserver/BlockServer.class
       ) ELSE (
-        ECHO [FATAL] [PocketBukkit] Unable to determine required operation!
+        ECHO [FATAL] Unable to determine required operation!
         PAUSE
       )
     )
