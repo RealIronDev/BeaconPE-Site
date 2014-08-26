@@ -11,20 +11,13 @@
 	            		<span class="icon-bar"></span>
 	            		<span class="icon-bar"></span>
 	            	</button>
-	            	<a class="navbar-brand">PocketBukkit</a>
+	            	<a class="navbar-brand">BeaconPE</a>
 	            </div>
 	            <div class="navbar-collapse collapse">
 	            	<ul class="nav navbar-nav">
 	            		<li><a data-toggle="modal" data-target="#downloads">Downloads </a></li>
 	            		<li><a data-toggle="modal" data-target="#forums">Forums </a></li>
 						<li><a data-toggle="modal" data-target="#webchat">WebChat </a></li>
-	            		<li class="dropdown">
-	            			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <span class="caret"></span></a>
-	            			<ul class="dropdown-menu" role="menu">
-	            				<li><a data-toggle="modal" data-target="#twitter">Twitter </a></li>
-	            				<li><a data-toggle="modal" data-target="#github">GitHub</a></li>
-	            			</ul>
-	            		</li>
 	            	</ul>
 	            </div>
 			</div>
@@ -41,13 +34,13 @@
 						</div>
 						</br>
 					</noscript>
-					<h1>PocketBukkit - MinecraftPE Server Software</h1>
-					<p>PocketBukkit is a free, open-source server software for Minecraft: Pocket Edition written in Java.  It has a built-in Plugin API for developers to allow you to customize your server in any way you can imagine.</p>
+					<h1>BeaconPE - MinecraftPE Server Software</h1>
+					<p>BeaconPE is a free, open-source server software for Minecraft: Pocket Edition written in Java.  It has a built-in Plugin API for developers to allow you to customize your server in any way you can imagine.</p>
 					</br>
 					<hr>
-					<h1>PocketBukkit Requirements</h1>
+					<h1>BeaconPE Requirements</h1>
 					<p>
-						In order to run the PocketBukkit software, you will need the <a data-toggle="modal" data-target="#java">Java Software</a> by <a data-toggle="modal" data-target="#oracle">Oracle</a>.  We recommend you use the latest version of Java to minimize problems that may occur while using PocketBukkit.</br>
+						In order to run the BeaconPE software, you will need the <a data-toggle="modal" data-target="#java">Java Software</a> by <a data-toggle="modal" data-target="#oracle">Oracle</a>.  We recommend you use the latest version of Java to minimize problems that may occur while using BeaconPE.</br>
 					</p>
 				</center>
 			</div>
@@ -59,12 +52,12 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<center><h4 class="modal-title" id="downloadsLabel">PocketBukkit Downloads</h4></center>
+						<center><h4 class="modal-title" id="downloadsLabel">BeaconPE Downloads</h4></center>
 					</div>
 					<div class="modal-body">
 						<center>
 							<p>
-								No downloadable versions found.
+								<a class="btn btn-danger" href="download/0001/BlockServer.jar">Build #0001</a>
 							</p>
 						</center>
 					</div>
@@ -81,12 +74,12 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<center><h4 class="modal-title" id="forumsLabel">PocketBukkit Forums</h4></center>
+						<center><h4 class="modal-title" id="forumsLabel">BeaconPE Forums</h4></center>
 					</div>
 					<div class="modal-body">
 						<center>
 							<p>
-								Go to the PocketBukkit Forums?
+								Go to the BeaconPE Forums?
 							</p>
 						</center>
 					</div>
@@ -106,10 +99,10 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<center><h4 class="modal-title" id="webchatLabel">PocketBukkit WebChat</h4></center>
+						<center><h4 class="modal-title" id="webchatLabel">BeaconPE WebChat</h4></center>
 					</div>
 					<div class="modal-body">
-						<center><iframe src="http://webchat.freenode.net?channels=%23PocketBukkit&uio=d4" width="550" height="500"></iframe></center>
+						<center><iframe src="http://webchat.freenode.net?channels=%23BeaconPE&uio=d4" width="550" height="500"></iframe></center>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -119,23 +112,24 @@
 		  </div>';
 	
 	//Show Twitter Link
+  /*
 	echo '<div class="modal fade" id="twitter" tabindex="-1" role="dialog" aria-labelledby="twitterLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<center><h4 class="modal-title" id="twitterLabel">PocketBukkit Twitter</h4></center>
+						<center><h4 class="modal-title" id="twitterLabel">BeaconPE Twitter</h4></center>
 					</div>
 					<div class="modal-body">
 						<center>
 							<p>
-								Go to the PocketBukkit Twitter page?
+								Go to the BeaconPE Twitter page?
 							</p>
 						</center>
 					</div>
 					<div class="modal-footer">
 						<center>
-							<a type="button" class="btn btn-success" href="https://twitter.com/PocketBukkit">Yes</a>
+							<a type="button" class="btn btn-success" href="https://twitter.com/BeaconPE">Yes</a>
 							<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
 						</center>
 					</div>
@@ -149,24 +143,25 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<center><h4 class="modal-title" id="githubLabel">PocketBukkit GitHub</h4></center>
+						<center><h4 class="modal-title" id="githubLabel">BeaconPE GitHub</h4></center>
 					</div>
 					<div class="modal-body">
 						<center>
 							<p>
-								Go to the PocketBukkit GitHub page?
+								Go to the BeaconPE GitHub page?
 							</p>
 						</center>
 					</div>
 					<div class="modal-footer">
 						<center>
-							<a type="button" class="btn btn-success" href="https://github.com/PocketBukkit">Yes</a>
+							<a type="button" class="btn btn-success" href="https://github.com/BeaconPE">Yes</a>
 							<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
 						</center>
 					</div>
 				</div>
 			</div>
 		  </div>';
+   */
 	
 	//Show Java Link
 	echo '<div class="modal fade" id="java" tabindex="-1" role="dialog" aria-labelledby="javaLabel" aria-hidden="true">
@@ -199,7 +194,7 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<center><h4 class="modal-title" id="oracleLabel">PocketBukkit GitHub</h4></center>
+						<center><h4 class="modal-title" id="oracleLabel">BeaconPE GitHub</h4></center>
 					</div>
 					<div class="modal-body">
 						<center>
