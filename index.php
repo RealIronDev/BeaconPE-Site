@@ -56,7 +56,7 @@
 					<div class="modal-body">
 						<center>
 							<p>
-								<a class="btn btn-danger" href="download/software/0002/BlockServer.jar">Build #0002</a>
+								<a class="btn btn-danger" href="download/software/0002/BlockServer.jar">Build #0002</a></br></br>
 								<a class="btn btn-danger" href="download/software/0001/BlockServer.jar">Build #0001</a>
 							</p>
 						</center>
