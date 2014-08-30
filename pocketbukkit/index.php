@@ -11,13 +11,15 @@
 	            		<span class="icon-bar"></span>
 	            		<span class="icon-bar"></span>
 	            	</button>
-	            	<a class="navbar-brand">BeaconPE</a>
+	            	<a class="navbar-brand">PocketBukkit</a>
 	            </div>
 	            <div class="navbar-collapse collapse">
 	            	<ul class="nav navbar-nav">
 	            		<li><a data-toggle="modal" data-target="#downloads">Downloads </a></li>
 	            		<li><a data-toggle="modal" data-target="#forums">Forums </a></li>
 						<li><a data-toggle="modal" data-target="#webchat">WebChat </a></li>
+						<li><a data-toggle="modal" data-target="#github">GitHub </a></li>
+						<li><a data-toggle="modal" data-target="#twitter">Twitter </a></li>
 	            	</ul>
 	            </div>
 			</div>
@@ -39,9 +41,9 @@
 					</p>
 					</br>
 					<hr>
-					<h1>BeaconPE Requirements</h1>
+					<h1>How To Use PocketBukkit</h1>
 					<p>
-						In order to run the BeaconPE software, you will need the <a data-toggle="modal" data-target="#java">Java Software</a> by <a data-toggle="modal" data-target="#oracle">Oracle</a>.  We recommend you use the latest version of Java to minimize problems that may occur while using BeaconPE.</br>
+						To use PocketBukkit, <a data-toggle="modal" data-target="#downloads">download the latest version</a> and place it in your API folder located in the same directory as BlockServer.  The BlockServer software will automatically load the files for you.  If you would like to run a vanilla Minecraft: Pocket Edition Server, leave the API folder empty.
 					</p>
 				</center>
 			</div>
