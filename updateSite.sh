@@ -18,3 +18,4 @@ if [ -f ./master.zip ]; then
   rm -rf BeaconPE-Site-master
   rm -rf README.md
 fi
+sed 's/^M//g' updateSite.sh > updateSite.sh
