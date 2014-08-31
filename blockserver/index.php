@@ -11,7 +11,7 @@
 	            		<span class="icon-bar"></span>
 	            		<span class="icon-bar"></span>
 	            	</button>
-	            	<a class="navbar-brand">PocketBukkit</a>
+	            	<a class="navbar-brand">BlockServer</a>
 	            </div>
 	            <div class="navbar-collapse collapse">
 	            	<ul class="nav navbar-nav">
