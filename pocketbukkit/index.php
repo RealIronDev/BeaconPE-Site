@@ -77,7 +77,7 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<center><h4 class="modal-title" id="forumsLabel">PocketBukkit Forums</h4></center>
+						<center><h4 class="modal-title" id="forumsLabel">BeaconPE Forums</h4></center>
 					</div>
 					<div class="modal-body">
 						<center>
