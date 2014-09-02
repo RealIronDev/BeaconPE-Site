@@ -82,7 +82,7 @@
 					<div class="modal-body">
 						<center>
 							<p>
-								Go to the PocketBukkit Forums?
+								Go to the BeaconPE Forums?
 							</p>
 						</center>
 					</div>
