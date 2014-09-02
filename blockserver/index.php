@@ -16,7 +16,6 @@
 	            <div class="navbar-collapse collapse">
 	            	<ul class="nav navbar-nav">
 	            		<li><a data-toggle="modal" data-target="#downloads">Downloads </a></li>
-	            		<li><a href="download">Download List </a></li>
 	            		<li><a data-toggle="modal" data-target="#forums">Forums </a></li>
 						<li><a data-toggle="modal" data-target="#webchat">WebChat </a></li>
 						<li><a data-toggle="modal" data-target="#github">GitHub </a></li>
