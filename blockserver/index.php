@@ -91,7 +91,7 @@
 					</div>
 					<div class="modal-footer">
 						<center>
-							<a type="button" class="btn btn-success" href="http://forums.beaconpe.net">Yes</a>
+							<a type="button" class="btn btn-success" href="../forums">Yes</a>
 							<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
 						</center>
 					</div>

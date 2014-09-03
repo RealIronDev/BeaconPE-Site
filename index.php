@@ -29,9 +29,9 @@
             <div class="inner">
               <h3 class="masthead-brand">BeaconPE</h3>
               <ul class="nav masthead-nav">
-                <li><a href="http://blockserver.beaconpe.net">BlockServer</a></li>
-                <li><a href="http://pocketbukkit.beaconpe.net">PocketBukkit</a></li>
-                <li><a href="http://forums.beaconpe.net">Forums</a></li>
+                <li><a href="http://blockserver.org/blockserver">BlockServer</a></li>
+                <li><a href="http://pocketbukkit.net/pocketbukkit">PocketBukkit</a></li>
+                <li><a href="http://beaconpe.net/forums">Forums</a></li>
               </ul>
             </div>
           </div>
