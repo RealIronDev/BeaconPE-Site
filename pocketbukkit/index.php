@@ -20,6 +20,7 @@
 						<li><a data-toggle="modal" data-target="#webchat">WebChat </a></li>
 						<li><a data-toggle="modal" data-target="#github">GitHub </a></li>
 						<li><a data-toggle="modal" data-target="#twitter">Twitter </a></li>
+						<li><a data-toggle="modal" data-target="#beaconpe">BeaconPE </a></li>
 	            	</ul>
 	            </div>
 			</div>
@@ -157,6 +158,31 @@
 					<div class="modal-footer">
 						<center>
 							<a type="button" class="btn btn-success" href="https://github.com/PocketBukkit">Yes</a>
+							<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+						</center>
+					</div>
+				</div>
+			</div>
+		  </div>';
+		  
+		  	//Show BeaconPE Link
+	echo '<div class="modal fade" id="beaconpe" tabindex="-1" role="dialog" aria-labelledby="beaconpeLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						<center><h4 class="modal-title" id="beaconpeLabel">BeaconPE Page</h4></center>
+					</div>
+					<div class="modal-body">
+						<center>
+							<p>
+								Go back to the BeaconPE Homepage?
+							</p>
+						</center>
+					</div>
+					<div class="modal-footer">
+						<center>
+							<a type="button" class="btn btn-success" href="http://beaconpe.net">Yes</a>
 							<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
 						</center>
 					</div>
