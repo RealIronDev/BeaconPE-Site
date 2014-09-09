@@ -108,7 +108,7 @@
 						<center><h4 class="modal-title" id="webchatLabel">BlockServer WebChat</h4></center>
 					</div>
 					<div class="modal-body">
-						<center><iframe src="http://webchat.freenode.net?channels=%23BlockServerProject&uio=d4" width="550" height="500"></iframe></center>
+						<center><iframe src="https://kiwiirc.com/client/irc.freenode.net/?nick=beaconpegu|?#blockserverproject,#pocketbukkit,#beaconpe" style="border:0; width:100%; height:450px;"></iframe></center>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
