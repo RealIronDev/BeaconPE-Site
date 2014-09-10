@@ -41,6 +41,23 @@
             	BeaconPE is the merged group of BlockServer and PocketBukkit.  BlockServer is a server software for Minecraft: Pocket Edition while PocketBukkit is the API.
             </p>
           </div>
+          <p><div align="center"><h2>Support our project</h2><p><tr>
+<td bgcolor="blue">
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_donations">
+<input type="hidden" name="business" value="account_email_needed">
+<input type="hidden" name="lc" value="IT">
+<input type="hidden" name="item_name" value="PocketBukkit">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="currency_code" value="EUR">
+<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+<input type="image" src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - Il metodo rapido, affidabile e innovativo per pagare e farsi pagare.">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</td>
+</tr></div>
+</tbody>
           <div class="mastfoot">
             <div class="inner">
               <p>Created by <a href="http://blockserver.beaconpe.net">BlockServer</a> & <a href="http://pocketbukkit.beaconpe.net">PocketBukkit</a></p>
