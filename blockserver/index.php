@@ -1,6 +1,9 @@
 <?php
 	include_once 'includes/header.php';
 	
+	//Google+
+	echo '<a href="https://plus.google.com/107086972208365630876" rel="publisher">Google+</a>'
+	
 	//Show Fixed Navbar
 	echo '<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="container">
