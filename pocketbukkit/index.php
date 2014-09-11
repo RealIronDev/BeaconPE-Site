@@ -19,7 +19,6 @@
 	            		<li><a data-toggle="modal" data-target="#forums">Forums </a></li>
 						<li><a data-toggle="modal" data-target="#webchat">WebChat </a></li>
 						<li><a data-toggle="modal" data-target="#github">GitHub </a></li>
-						<li><a data-toggle="modal" data-target="#twitter">Twitter </a></li>
 						<li><a data-toggle="modal" data-target="#beaconpe">BeaconPE </a></li>
 	            	</ul>
 	            </div>
@@ -115,30 +114,7 @@
 			</div>
 		  </div>';
 	
-	//Show Twitter Link
-	echo '<div class="modal fade" id="twitter" tabindex="-1" role="dialog" aria-labelledby="twitterLabel" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-						<center><h4 class="modal-title" id="twitterLabel">PocketBukkit Twitter</h4></center>
-					</div>
-					<div class="modal-body">
-						<center>
-							<p>
-								Go to the PocketBukkit Twitter page?
-							</p>
-						</center>
-					</div>
-					<div class="modal-footer">
-						<center>
-							<a type="button" class="btn btn-success" href="https://twitter.com/PocketBukkit">Yes</a>
-							<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
-						</center>
-					</div>
-				</div>
-			</div>
-		  </div>';
+	
 	
 	//Show GitHub Link
 	echo '<div class="modal fade" id="github" tabindex="-1" role="dialog" aria-labelledby="githubLabel" aria-hidden="true">
