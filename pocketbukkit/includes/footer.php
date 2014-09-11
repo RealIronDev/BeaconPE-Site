@@ -1,5 +1,5 @@
 	<div align="center">
-		<a href="https://twitter.com/PocketBukkit" class="twitter-follow-button" data-show-count="false" data-lang="it" data-size="large">Follow @PocketBukkit</a>
+		<a href="https://twitter.com/PocketBukkit" class="twitter-follow-button" data-show-count="false" data-lang="en" data-size="large">Follow @PocketBukkit</a>
 		<script>
 			!function(d,s,id){
 				var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
