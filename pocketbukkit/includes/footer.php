@@ -12,10 +12,8 @@
 
 		</script>
 	</div>
-	<div align="center"><a class="twitter-timeline" href="https://twitter.com/PocketBukkit" data-widget-id="510050434438791168">Tweets di @PocketBukkit</a>
+	<div align="center"><a class="twitter-timeline" data-dnt="true" href="https://twitter.com/PocketBukkit" data-widget-id="">Tweets di @PocketBukkit</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
-	<div class="footer">
-      <div class="container">
       	<p class="text-muted" align="right">Created by <a href="https://github.com/PocketBukkit">PocketBukkit</a></p>
       </div>
     </div>
