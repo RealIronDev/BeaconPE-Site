@@ -7,11 +7,12 @@
 					js=d.createElement(s);
 					js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);
 				}
-			}(document, 'script', 'twitter-wjs');
+			}(document, 'script', 'twitter-wjs');<a href="https://twitter.com/share" class="twitter-share-button" data-text="Check this amazing software API" data-via="PocketBukkit" data-hashtags="pocketbukkit">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
 		</script>
 	</div>
-<div align="center">"<a href="https://twitter.com/share" class="twitter-share-button" data-text="Check this amazing software API" data-via="PocketBukkit" data-hashtags="pocketbukkit">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	<div align="center"><a class="twitter-timeline" href="https://twitter.com/PocketBukkit" data-widget-id="510048828456570881">Tweets di @PocketBukkit</a>
 </div>
 	<div class="footer">
       <div class="container">
