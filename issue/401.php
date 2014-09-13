@@ -36,7 +36,7 @@
             </div>
           </div>
           <div class="inner cover">
-            <h1 class="cover-heading">Dont Take Another Step!</h1>
+            <h1 class="cover-heading">Don't Take Another Step!</h1>
             <p class="lead">
             	You are not authorized to view this page/file at this time.
             </p>
