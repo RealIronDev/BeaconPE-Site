@@ -31,6 +31,7 @@
               <ul class="nav masthead-nav">
                 <li><a href="http://blockserver.org/blockserver">BlockServer</a></li>
                 <li><a href="http://pocketbukkit.net/pocketbukkit">PocketBukkit</a></li>
+                <li><a href="http://jenkins.beaconpe.net">Jenkins</a></li>
                 <li><a href="http://beaconpe.net/forums">Forums</a></li>
               </ul>
             </div>
