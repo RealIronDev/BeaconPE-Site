@@ -35,7 +35,11 @@
 							This site uses JavaScript to run which is not enabled on your browser!
 						</div>
 					</noscript>
-					<h1>BlockServer | Server Software</h1>
+					<h1>BlockServer | Server Software</h1> <!-- Place this tag in your head or just before your close body tag. -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+<!-- Place this tag where you want the +1 button to render. -->
+<div class="g-plusone" data-size="small"></div>
 					<p>
 						BlockServer is a server software for Minecraft: Pocket Edition.  It uses the <a href="http://pocketbukkit.beaconpe.net">PocketBukkit API</a> to load and run plugins.  It is still in development so DO NOT report unimplemented features/items!
 					</p>
