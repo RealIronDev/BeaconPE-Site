@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="includes/img/favicon.ico">
-    <title>BeaconPE - Error 404</title>
+    <title>BeaconPE - Error 400</title>
     <!-- Bootstrap core CSS -->
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
@@ -36,9 +36,9 @@
             </div>
           </div>
           <div class="inner cover">
-            <h1 class="cover-heading">Where'd It Go?</h1>
+            <h1 class="cover-heading">That shouldn't have happened...</h1>
             <p class="lead">
-            	We were not able to find the page you requested on our server.  Please be sure you entered it correctly or contact an administrator.
+            	There was an error while processing your request.  Please try again.
             </p>
           </div>
 

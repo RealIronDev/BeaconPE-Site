@@ -36,9 +36,9 @@
             </div>
           </div>
           <div class="inner cover">
-            <h1 class="cover-heading">Where'd It Go?</h1>
+            <h1 class="cover-heading">Dont Take Another Step!</h1>
             <p class="lead">
-            	We were not able to find the page you requested on our server.  Please be sure you entered it correctly or contact an administrator.
+            	You are not authorized to view this page/file at this time.
             </p>
           </div>
 
