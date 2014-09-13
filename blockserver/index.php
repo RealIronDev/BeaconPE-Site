@@ -35,7 +35,9 @@
 							This site uses JavaScript to run which is not enabled on your browser!
 						</div>
 					</noscript>
-					<h1>BlockServer | Server Software</h1> <!-- Place this tag in your head or just before your close body tag. -->
+					<h1>BlockServer | Server Software</h1> 
+			<div class="pull-right">		
+					<!-- Place this tag in your head or just before your close body tag. -->
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 
 <!-- Place this tag where you want the +1 button to render. -->
