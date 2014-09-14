@@ -73,7 +73,8 @@
 				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 			</form>
           </div>
-
+<div aling="center">"<a href="https://twitter.com/Beacon_PE" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @Beacon_PE</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
           <div class="mastfoot">
             <div class="inner">
               <p>Created by <a href="http://blockserver.beaconpe.net">BlockServer</a> & <a href="http://pocketbukkit.beaconpe.net">PocketBukkit</a></p>
