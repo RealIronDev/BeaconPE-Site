@@ -1,6 +1,6 @@
     <div class="footer">
       <div class="container">
-      	<p class="text-muted" align="right">Created by <a href="https://github.com/BlockServer">BlockServer</a></p>
+      	<p class="text-muted" align="right">Created by <a href="https://github.com/BlockServerProject">BlockServer</a></p>
       </div>
     </div>
   </body>
