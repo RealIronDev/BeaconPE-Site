@@ -52,6 +52,13 @@
     						</p>
     					  </center>';
           		}
+          		if(isset($_GET['banned']) && empty($_GET['banned'])) {
+          			echo'<center>
+    						<p class="alert alert-danger">
+    							You have been banned from accessing that page!
+    						</p>
+    					 </center>';
+          		}
           	?>
             <h1 class="cover-heading">BeaconPE</h1>
             <p class="lead">
