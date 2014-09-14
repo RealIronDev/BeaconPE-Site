@@ -1,4 +1,10 @@
 <?php
+	$IPBlocker = new IPBlocker();
+	$IP = array(
+		'',
+	);
+	$IPBlocker->blockIP($IP);
+	
 	include_once 'includes/header.php';
 	
 	//Show Fixed Navbar
