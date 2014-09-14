@@ -18,4 +18,12 @@ ob_start();
 				$this->redirectUser();
 			}
 		}
+		
+		public function acceptIP($IP) {
+			$userIP = $this->getIP();
+			if(!($userIP == $IP)) {
+				header('Location: http://BeaconPE.net/index.php?banned');
+				die();
+			}
+		}
 	}
