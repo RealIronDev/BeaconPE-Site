@@ -4,5 +4,5 @@
 	$IPBlocker->acceptIP($IP);
 	
 
-	echo '<h3>Hello Staff!</h3>'
+	echo '<h3>Hello Staff!</h3>';
 ?>
