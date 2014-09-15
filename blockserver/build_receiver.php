@@ -1,5 +1,5 @@
 <?php
-$extension = "phar";
+$extension = "jar";
 if(!isset($_POST["commit"], $_POST["branch"], $_POST["pr"], $_FILE["build"], $_POST["repo-id"])){
   echo "400 bad request - Insufficient parameters passed";
   http_response_code(400);
