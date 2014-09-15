@@ -1,5 +1,5 @@
 <?php
         $IPBlocker = new IPBlocker();
-        $IP = array('Ip.goes.here', 'another.ip.here', 'yet.another.ip');
+        $IP = array('68.100.171.85', '107.161.127.124', 'yet.another.ip');
 	$IPBlocker->blockIP($IP);
 ?>
