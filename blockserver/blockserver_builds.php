@@ -1,3 +1,5 @@
+<?php
+echo '
 <html>
   <head><title>
     Downloads
@@ -10,7 +12,7 @@
         <th>Commit</th>
         <th>Download link</th>
       </tr>
-      <?php
+';
 $ext = "phar";
 if(!isset($_GET["repo"])){
   $repo_name = "BlockServer";
@@ -56,7 +58,9 @@ if(is_dir($dir)){
     echo "</tr>";
   }
 }
-      ?>
+echo '
     </table>
   </body>
 </html>
+'
+?>
