@@ -1,12 +1,25 @@
 <?php
-@define("REPO_URL", "https://api.github.com/repos/LegendOfMCPE/StatsCore");
-$extensin = "phar";
-if(!isset($_POST["commit"], $_POST["branch"], $_POST["pr"], $_FILE["build"])){
+$extension = "phar";
+if(!isset($_POST["commit"], $_POST["branch"], $_POST["pr"], $_FILE["build"], $_POST["repo-id"])){
   echo "400 bad request - Insufficient parameters passed";
   http_response_code(400);
 }
 else{
-  @mkdir($dir = dirname(__FILE__) . DIRECTORY_SEPARATOR . "builds" . DIRECTORY_SEPARATOR);
+  switch($_POST["repo-id"]){
+    case "0":
+      $repo_url = "https://github.com/BlockServerProject/BlockServer";
+      $repo_name = "BlockServer";
+      break;
+    case "1":
+      $repo_url = "https://github.com/BlockServerProject/BSF-Lib"; // IO-Lib
+      $repo_name = "IO-Lib";
+      break;
+    default:
+      echo "403 forbidden: You are not allowed to upload builds of this repo.";
+      http_response_code(403);
+      return;
+  }
+  @mkdir($dir = dirname(__FILE__) . DIRECTORY_SEPARATOR . "builds" . DIRECTORY_SEPARATOR . $repo_name . DIRECTORY_SEPARATOR, 0777, true);
   $branch = $_POST["branch"];
   $pr = $_POST["pr"];
   $commit = $_POST["commit"];
@@ -22,7 +35,7 @@ else{
       http_response_code(400);
     }
     else{
-      if(match_github_commit($commit, REPO_URL, $branch, $pr)){
+      if(match_github_commit($commit, $repo_url, $branch, $pr)){
         if(move_uploaded_file($upload["tmp_name"], $file)){
           echo "201 created - file $file is now in the archive.";
           http_response_code(201);
