@@ -2,7 +2,7 @@
 $extension = "jar";
 if(!isset($_POST["commit"], $_POST["branch"], $_POST["pr"], $_FILE["build"], $_POST["repo-id"])){
   echo "400 bad request - Insufficient parameters passed";
-  http_response_code(400);
+  // http_response_code(400);
 }
 else{
   switch($_POST["repo-id"]){
@@ -16,7 +16,7 @@ else{
       break;
     default:
       echo "403 forbidden: You are not allowed to upload builds of this repo.";
-      http_response_code(403);
+      // http_response_code(403);
       return;
   }
   @mkdir($dir = dirname(__FILE__) . DIRECTORY_SEPARATOR . "builds" . DIRECTORY_SEPARATOR . $repo_name . DIRECTORY_SEPARATOR, 0777, true);
@@ -26,28 +26,28 @@ else{
   $file = $dir . "$pr@$branch#$commit." . $extension;
   if(is_file($file)){
     echo "403 forbidden - build already exists for such file";
-    http_response_code(403);
+    // http_response_code(403);
   }
   else{
     $upload = $_FILES["build"];
     if($upload["error"] > 0){
       echo "400 bar request: Error with upload file: " . $file["error"];
-      http_response_code(400);
+      // http_response_code(400);
     }
     else{
       if(match_github_commit($commit, $repo_url, $branch, $pr)){
         if(move_uploaded_file($upload["tmp_name"], $file)){
           echo "201 created - file $file is now in the archive.";
-          http_response_code(201);
+          // http_response_code(201);
         }
         else{
           echo "500 internal server error - cannot save file into archive";
-          http_response_code(500);
+          // http_response_code(500);
         }
       }
       else{
         echo "403 forbidden - the commit does not match the result from GitHub API";
-       http_response_code(403);
+       // http_response_code(403);
       }
     }
   }
