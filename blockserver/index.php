@@ -83,7 +83,8 @@
 					<div class="modal-footer">
 						<center>
 							<a type="button" class="btn btn-success" href="download/start/windows/start.bat">Windows Start File</a>
-							<a type="button" class="btn btn-warning" href="download/start/mac-linux/start.sh">Linux/Mac Start File</a>
+							<a type="button" class="btn btn-warning" href="download/start/mac-linux/start.sh">Linux Start File</a>
+							<a type="button" class="btn btn-success" href="download/start/mac-linux/start.command">Mac Start File</a>
 						</center>
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
