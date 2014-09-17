@@ -1,6 +1,6 @@
 BeaconPE-Site
 =============
-BeaconPE test....
+BeaconPE
 BeaconPE is the merged group of BlockServer and PocketBukkit. BlockServer is a server software for Minecraft: Pocket Edition while PocketBukkit is the API.
 
 This is the main web page of the Project
