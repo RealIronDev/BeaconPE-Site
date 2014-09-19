@@ -135,4 +135,5 @@ echo '<html lang="en"><head>
   </footer>
 
 <iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" style="display: none;"></iframe></body></html>
-'
+';
+?>
