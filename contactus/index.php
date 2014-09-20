@@ -53,7 +53,7 @@ echo '<html lang="en"><head>
 					<p>
 						Little description...
 <p>Api team: Name and emails</p>
-<p>Web team: optrusty: optrusty, <a href="mailto:alemayhu21@gmail.com">Email optrusty</a> <a href="gtatf2gamer.tk">My Web Site</a> <style>.ig-b- { display: inline-block; }
+<p>Web team: optrusty: optrusty, <a href="mailto:alemayhu21@gmail.com">Email optrusty</a> <a href="http://gtatf2gamer.tk">My Web Site</a> <style>.ig-b- { display: inline-block; }
 .ig-b- img { visibility: hidden; }
 .ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
 .ig-b-16 { width: 16px; height: 16px; background: url(//badges.instagram.com/static/images/ig-badge-sprite-16.png) no-repeat 0 0; }
