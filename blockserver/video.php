@@ -1,4 +1,15 @@
-<html lang="en">
+<?php
+   /**
+	* $IPBlocker = new IPBlocker();
+	* $IP = array(
+	* 	'',
+	* );
+	* $IPBlocker->blockIP($IP);
+	*/
+
+	include_once 'includes/header.php';
+
+echo '<html lang="en">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,4 +35,8 @@
 <p>Linux</p>
 </body>
     
-</html>
+</html>';
+
+include_once 'includes/header.php';
+
+?>
