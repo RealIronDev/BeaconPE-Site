@@ -1,25 +1,22 @@
 <?php
-session_start();
-ob_start();
-	
 	class IPBlocker {
-		public function getIP() {
+		public static function getIP() {
 			return $_SERVER['REMOTE_ADDR'];
 		}
 		
-		public function redirectUser() {
+		public static function redirectUser() {
 			header('Location: http://BeaconPE.net/index.php?banned');
 			die();
 		}
 		
-		public function blockIP($IP) {
+		public static function blockIP($IP) {
 			$userIP = $this->getIP();
 			if($userIP == $IP) {
 				$this->redirectUser();
 			}
 		}
 		
-		public function acceptIP($IP) {
+		public static function acceptIP($IP) {
 			$userIP = $this->getIP();
 			if(!($userIP == $IP)) {
 				header('Location: http://BeaconPE.net/index.php?banned');
